@@ -25,7 +25,7 @@ __extension__ typedef signed long long		INT64;
 #include <stdio.h>
 #include <string.h>
 #include <dirent.h>
-#include <malloc.h>
+#include <stdlib.h>
 #include "zlib/zlib.h"
 #include "zfile.h"
 
@@ -79,7 +79,7 @@ void check_byte_order(void);
 
 
 /*--------------------------------------------------------
-	Windows—p
+	Windowsï¿½p
 --------------------------------------------------------*/
 
 #ifdef WIN32
