@@ -222,7 +222,7 @@ enum
 	INIT_kof2003h,		// 20
 	INIT_samsh5sp,		// 21
 
-	// SNKÒÔÍâ
+	// SNKï¿½ï¿½ï¿½ï¿½
 	INIT_nitd,			// 22
 	INIT_s1945p,		// 23
 	INIT_pnyaa,			// 24
@@ -295,7 +295,7 @@ void svcpcb_gfx_decrypt(void);
 void svcpcb_s1data_decrypt(void);
 void kf2k3pcb_gfx_decrypt(void);
 void kf2k3pcb_decrypt_s1data(void);
-
+void neogeo_sfix_decrypt(void);
 void neo_pcm2_snk_1999(int value);
 void neo_pcm2_swap(int value);
 

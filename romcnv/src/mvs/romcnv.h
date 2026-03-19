@@ -2,6 +2,11 @@
 #define ROMCNV_H
 
 #include "common.h"
+#ifndef WIN32
+#include <unistd.h>
+#endif
+#include <sys/stat.h>
+#include <ctype.h>
 #include "neogeo.h"
 
 extern UINT8 *memory_region_gfx2;

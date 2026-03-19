@@ -66,6 +66,7 @@ extern char cache_name[16];
 void error_memory(const char *mem_name);
 void error_file(const char *rom_name);
 void error_rom(const char *rom_name);
+void error_crc(const char *rom_name);
 
 int file_open(const char *fname1, const char *fname2, const UINT32 crc, char *fname);
 void file_close(void);
